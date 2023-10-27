@@ -51,6 +51,7 @@ def word(answer, life, none, text, duplicate):
             print("Game Over\n정답 : " + answer)
             break
         if text == answer:
+            print(answer)
             print("정답입니다!!")
             break
 
